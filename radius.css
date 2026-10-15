@@ -1,0 +1,23 @@
+/* The brand is built from folded paper: flat planes, straight cuts.
+   Radii stay small — pills are reserved for chips/tags and the icon circle. */
+:root{
+  --radius-none:0px;
+  --radius-xs:2px;
+  --radius-sm:4px;
+  --radius-md:6px;
+  --radius-lg:10px;
+  --radius-xl:16px;
+  --radius-pill:999px;
+  --radius-circle:50%;
+
+  --radius-button:var(--radius-md);   /* 6px — matches Enactus Cactus */
+  --radius-input:var(--radius-sm);
+  --radius-card:var(--radius-md);
+  --radius-dialog:var(--radius-lg);
+  --radius-tag:var(--radius-pill);
+
+  --border-width-hairline:1px;
+  --border-width-default:1px;
+  --border-width-thick:2px;
+  --border-width-rule:3px;   /* gold section rules */
+}

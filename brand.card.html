@@ -1,0 +1,39 @@
+<!-- @dsCard group="Components" viewport="700x300" name="Brand — Logo & BrandIcon" subtitle="Official lockups and the gold-circle icon set" -->
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Brand — Logo & BrandIcon</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>html,body{margin:0}body{background:var(--surface-page);font-family:var(--font-core);color:var(--text-body)}.pad{padding:20px 24px}a{color:var(--text-link)}a:hover{color:var(--text-link-hover)}</style>
+</head><body><div id="root" class="pad"></div><script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<script type="text/babel">const { Logo, BrandIcon } = window.EnactusCanadaDesignSystem_7f2b6a;
+const row = { display:'flex', alignItems:'center', gap:28, flexWrap:'wrap' };
+const lbl = { font:'var(--weight-bold) var(--text-3xs)/1 var(--font-core)', letterSpacing:'var(--tracking-caps)', textTransform:'uppercase', color:'var(--text-muted)' };
+function Demo(){
+  return <div style={{display:'flex',flexDirection:'column',gap:22}}>
+    <div style={{display:'flex',flexDirection:'column',gap:10}}>
+      <span style={lbl}>Logo</span>
+      <div style={row}>
+        <Logo variant="primary" height={44} basePath="../.." />
+        <Logo variant="mark-gold" height={44} basePath="../.." />
+        <span style={{background:'var(--enactus-gold)',padding:'14px 18px',display:'inline-flex',borderRadius:'var(--radius-sm)'}}>
+          <Logo variant="black" height={34} basePath="../.." />
+        </span>
+        <span style={{background:'var(--almost-black)',padding:'14px 18px',display:'inline-flex',borderRadius:'var(--radius-sm)'}}>
+          <Logo variant="full-color-white" height={34} basePath="../.." />
+        </span>
+      </div>
+    </div>
+    <div style={{display:'flex',flexDirection:'column',gap:10}}>
+      <span style={lbl}>BrandIcon</span>
+      <div style={{display:'flex',gap:20,alignItems:'flex-end'}}>
+        <BrandIcon name="lightbulb" size={64} basePath="../.." label="Innovation" />
+        <BrandIcon name="handshake" size={64} basePath="../.." label="Collaboration" />
+        <BrandIcon name="rocket" size={64} basePath="../.." label="Entrepreneurship" />
+        <BrandIcon name="earth" size={64} basePath="../.." label="Impact" />
+        <BrandIcon name="world-cup" size={64} basePath="../.." label="Competition" />
+      </div>
+    </div>
+  </div>;
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<Demo />);</script></body></html>

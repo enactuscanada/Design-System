@@ -1,0 +1,11 @@
+<!-- @dsCard group="Slides" viewport="1280x720" name="07 Big statistic" subtitle="One standout number with context" -->
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Big statistic</title>
+<style>html,body{margin:0;width:1280px;height:720px;overflow:hidden;background:#161C1C}iframe{border:0;width:1280px;height:720px;display:block}a{color:#C88A12}a:hover{color:#96660D}</style>
+</head><body>
+<iframe id="f" src="../templates/enactus-deck/EnactusDeck.dc.html" scrolling="no" title="Big statistic"></iframe>
+<script>
+const f=document.getElementById('f'),n=7;
+function go(t){try{const s=f.contentDocument.querySelector('[data-screen-label^="'+String(n).padStart(2,'0')+' "]');if(s){f.contentWindow.scrollTo(0,s.getBoundingClientRect().top+f.contentWindow.scrollY);return}}catch(e){}if(t<60)setTimeout(()=>go(t+1),100)}
+f.addEventListener('load',()=>go(0));
+</script>
+</body></html>

@@ -1,0 +1,56 @@
+/* Roboto is the primary typeface for every hierarchy level.
+   Knockout is used for TITLES ONLY — slide/page titles and big numerals.
+   It never sets subheadings, body copy, labels, captions or UI text.
+   Presentation sizes below match the Brand Guide slide scale (50/40/32/25/20pt). */
+:root{
+  --font-core:"Roboto","Helvetica Neue",Arial,sans-serif;
+  --font-condensed:"Roboto Condensed","Roboto",Arial,sans-serif;
+  --font-display:"Knockout 71","Roboto Condensed",Arial,sans-serif;
+  --font-display-wide:"Knockout 28","Roboto",Arial,sans-serif;
+  --font-display-compressed:"Knockout 91","Roboto Condensed",Arial,sans-serif;
+
+  --weight-thin:100; /* @kind font */
+  --weight-light:300; /* @kind font */
+  --weight-regular:400; /* @kind font */
+  --weight-medium:500; /* @kind font */
+  --weight-bold:700; /* @kind font */
+  --weight-black:900; /* @kind font */
+
+  /* Screen/UI scale (px) */
+  --text-3xs:11px;
+  --text-2xs:12px;
+  --text-xs:13px;
+  --text-sm:14px;
+  --text-md:16px;
+  --text-lg:18px;
+  --text-xl:22px;
+  --text-2xl:28px;
+  --text-3xl:34px;
+  --text-4xl:44px;
+  --text-5xl:58px;
+  --text-6xl:76px;
+
+  /* Presentation scale (pt) — from the Brand Guide hierarchy table */
+  --pres-h1:50pt; /* @kind font */
+  --pres-h2:40pt; /* @kind font */
+  --pres-h3:32pt; /* @kind font */
+  --pres-body:25pt; /* @kind font */
+  --pres-caption:20pt; /* @kind font */
+
+  --leading-tight:1.05; /* @kind font */
+  --leading-snug:1.2; /* @kind font */
+  --leading-normal:1.45; /* @kind font */
+  --leading-relaxed:1.6; /* @kind font */
+
+  --tracking-display:-0.02em;
+  --tracking-normal:0em;
+  --tracking-label:0.06em;
+  --tracking-caps:0.12em;
+
+  /* Role aliases */
+  --type-h1-font:var(--font-core);
+  --type-h1-weight:var(--weight-bold);
+  --type-h2-weight:var(--weight-medium);
+  --type-body-weight:var(--weight-regular);
+  --type-caption-weight:var(--weight-light);
+}

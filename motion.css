@@ -1,0 +1,17 @@
+/* Motion is quick and matter-of-fact: short fades and small translations.
+   No bounce, no spring, no long parallax. */
+:root{
+  --duration-instant:80ms; /* @kind other */
+  --duration-fast:140ms; /* @kind other */
+  --duration-base:220ms; /* @kind other */
+  --duration-slow:360ms; /* @kind other */
+  --duration-slide:500ms; /* @kind other */
+
+  --ease-standard:cubic-bezier(.2,0,.2,1); /* @kind other */
+  --ease-out:cubic-bezier(0,0,.2,1); /* @kind other */
+  --ease-in:cubic-bezier(.4,0,1,1); /* @kind other */
+
+  --transition-control:background-color var(--duration-fast) var(--ease-standard),border-color var(--duration-fast) var(--ease-standard),color var(--duration-fast) var(--ease-standard),box-shadow var(--duration-fast) var(--ease-standard); /* @kind other */
+  --press-scale:0.985; /* @kind other */
+  --hover-lift:-1px;
+}

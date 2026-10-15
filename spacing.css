@@ -1,0 +1,30 @@
+/* 4px base step. Layout gutters follow the presentation/print margin rhythm. */
+:root{
+  --space-0:0px;
+  --space-1:4px;
+  --space-2:8px;
+  --space-3:12px;
+  --space-4:16px;
+  --space-5:20px;
+  --space-6:24px;
+  --space-8:32px;
+  --space-10:40px;
+  --space-12:48px;
+  --space-16:64px;
+  --space-20:80px;
+  --space-24:96px;
+  --space-32:128px;
+
+  --gutter-page:var(--space-6);
+  --gutter-section:var(--space-16);
+  --gutter-card:var(--space-6);
+  --gutter-control:var(--space-3);
+
+  /* Logo clear space = the height of the "n" in "enactus" (≈0.36× mark height) */
+  --logo-clear-space:0.36em; /* @kind spacing */
+
+  --slide-margin:96px;   /* 1920×1080 safe margin */
+  --slide-gutter:64px;
+  --container-max:1200px;
+  --measure-prose:68ch; /* @kind spacing */
+}

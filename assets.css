@@ -1,0 +1,53 @@
+/* Brand asset paths, exposed as tokens so consumers reference files
+   rather than re-drawing marks. */
+:root{
+  --logo-primary:url("../assets/logos/enactus-primary.svg"); /* @kind other */
+  --logo-mark-gold:url("../assets/logos/enactus-mark-gold.png"); /* @kind other */
+  --logo-lockup-black:url("../assets/logos/enactus-lockup-black.png"); /* @kind other */
+  --logo-black:url("../assets/logos/enactus-primary-black.svg"); /* @kind other */
+  --logo-full-color-white:url("../assets/logos/enactus-full-color-white.png"); /* @kind other */
+
+  --logo-enactus-cactus:url("../assets/logos/enactus-cactus-horizontal.png"); /* @kind other */
+  --favicon-enactus-cactus:url("../assets/logos/enactus-cactus-favicon.png"); /* @kind other */
+
+  --icon-circle:url("../assets/icons/_circle.png"); /* @kind other */
+
+  /* Communication backgrounds. PRIMARY = gold/yellow, the default for all comms.
+     SECONDARY = other hues, for campaigns, SDG-coded or themed pieces. 1920px web files;
+     full-resolution masters in assets/backgrounds/originals/. */
+  --bg-primary-gold-light-side-glow:url("../assets/backgrounds/primary-gold-light-side-glow.jpg"); /* @kind other */
+  --bg-primary-gold-light-conic-burst:url("../assets/backgrounds/primary-gold-light-conic-burst.jpg"); /* @kind other */
+  --bg-primary-gold-light-mottled:url("../assets/backgrounds/primary-gold-light-mottled.jpg"); /* @kind other */
+  --bg-primary-gold-light-soft-bloom:url("../assets/backgrounds/primary-gold-light-soft-bloom.jpg"); /* @kind other */
+  --bg-primary-gold-light-diagonal-corners:url("../assets/backgrounds/primary-gold-light-diagonal-corners.jpg"); /* @kind other */
+  --bg-primary-gold-light-amber-to-yellow:url("../assets/backgrounds/primary-gold-light-amber-to-yellow.jpg"); /* @kind other */
+  --bg-primary-gold-dark-horizon-glow:url("../assets/backgrounds/primary-gold-dark-horizon-glow.jpg"); /* @kind other */
+  --bg-primary-gold-dark-centre-orb:url("../assets/backgrounds/primary-gold-dark-centre-orb.jpg"); /* @kind other */
+  --bg-primary-gold-dark-diagonal-corners:url("../assets/backgrounds/primary-gold-dark-diagonal-corners.jpg"); /* @kind other */
+  --bg-secondary-blue-dark-horizon-glow:url("../assets/backgrounds/secondary-blue-dark-horizon-glow.jpg"); /* @kind other */
+  --bg-secondary-green-dark-horizon-glow:url("../assets/backgrounds/secondary-green-dark-horizon-glow.jpg"); /* @kind other */
+  --bg-secondary-magenta-dark-horizon-glow:url("../assets/backgrounds/secondary-magenta-dark-horizon-glow.jpg"); /* @kind other */
+  --bg-secondary-red-dark-horizon-glow:url("../assets/backgrounds/secondary-red-dark-horizon-glow.jpg"); /* @kind other */
+  --bg-secondary-red-dark-diagonal-corners:url("../assets/backgrounds/secondary-red-dark-diagonal-corners.jpg"); /* @kind other */
+  --bg-secondary-pink-dark-diagonal-corners:url("../assets/backgrounds/secondary-pink-dark-diagonal-corners.jpg"); /* @kind other */
+  --bg-secondary-blue-dark-diagonal-corners:url("../assets/backgrounds/secondary-blue-dark-diagonal-corners.jpg"); /* @kind other */
+  --bg-secondary-green-dark-diagonal-corners:url("../assets/backgrounds/secondary-green-dark-diagonal-corners.jpg"); /* @kind other */
+  --bg-secondary-orange-dark-diagonal-corners:url("../assets/backgrounds/secondary-orange-dark-diagonal-corners.jpg"); /* @kind other */
+  --bg-secondary-teal-yellow-light-sunburst:url("../assets/backgrounds/secondary-teal-yellow-light-sunburst.jpg"); /* @kind other */
+  --bg-secondary-sky-light-haze:url("../assets/backgrounds/secondary-sky-light-haze.jpg"); /* @kind other */
+  --bg-secondary-cyan-light-wave:url("../assets/backgrounds/secondary-cyan-light-wave.jpg"); /* @kind other */
+  --bg-secondary-lime-orange-light-glow:url("../assets/backgrounds/secondary-lime-orange-light-glow.jpg"); /* @kind other */
+  --bg-secondary-yellow-coral-light-fade:url("../assets/backgrounds/secondary-yellow-coral-light-fade.jpg"); /* @kind other */
+  --bg-secondary-lime-blue-light-canopy:url("../assets/backgrounds/secondary-lime-blue-light-canopy.jpg"); /* @kind other */
+  --bg-secondary-orange-light-horizon-grain:url("../assets/backgrounds/secondary-orange-light-horizon-grain.jpg"); /* @kind other */
+  --bg-secondary-orange-light-grain:url("../assets/backgrounds/secondary-orange-light-grain.jpg"); /* @kind other */
+  --bg-secondary-coral-red-light-grain:url("../assets/backgrounds/secondary-coral-red-light-grain.jpg"); /* @kind other */
+  --bg-secondary-lime-light-bloom:url("../assets/backgrounds/secondary-lime-light-bloom.jpg"); /* @kind other */
+  --bg-secondary-teal-light-film-grain:url("../assets/backgrounds/secondary-teal-light-film-grain.jpg"); /* @kind other */
+
+  /* Real Enactus photography, by brand-guide category (1600px web versions). */
+  --photo-events-hero:url("../assets/photography/events-nationals-champion-stage.jpg"); /* @kind other */
+  --photo-students-in-action:url("../assets/photography/students-in-action-sait-workshop.jpg"); /* @kind other */
+  --photo-portraits:url("../assets/photography/portraits-team-capilano.jpg"); /* @kind other */
+  --photo-community-impact:url("../assets/photography/community-impact-nscc-capcycle.jpg"); /* @kind other */
+}
